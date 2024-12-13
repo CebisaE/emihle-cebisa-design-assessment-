@@ -48,7 +48,7 @@
   }
 
   .service-area h2 {
-      color: #a33;
+      color: #ab3c3c;
       flex-basis: 100%;
   }
 
@@ -70,7 +70,7 @@
          .service-area-links a {
              display: inline-block;
              margin-right: 10px;
-             color: #a33;
+             color: #ab3c3c;
              text-decoration: none;
          }
 
