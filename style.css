@@ -1,0 +1,117 @@
+   body {
+       font-family: 'Helvetica', Arial, sans-serif;
+       line-height: 1.6;
+       margin: 0;
+       padding: 0;
+   }
+
+   h1,
+   h2 {
+       font-family: 'Roboto Slab', serif;
+   }
+
+   .header {
+       background-color: #314b57;
+       color: white;
+       padding: 20px;
+       text-align: center;
+   }
+
+  .services {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      background-color: #f4f4f4;
+      padding: 20px 0;
+  }
+
+  .services div {
+      text-align: center;
+      flex: 1 1 150px;
+      margin: 10px;
+  }
+
+  .services img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+  }
+
+  .service-area {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 0 20px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 20px;
+  }
+
+  .service-area h2 {
+      color: #a33;
+      flex-basis: 100%;
+  }
+
+  .service-area p {
+      margin: 10px 0;
+      flex: 1 1 300px;
+  }
+
+  .service-area img {
+      max-width: 600px;
+      width: 100%;
+      flex: 1 1 300px;
+  }
+
+         .service-area-links {
+             margin-top: 10px;
+         }
+    
+         .service-area-links a {
+             display: inline-block;
+             margin-right: 10px;
+             color: #a33;
+             text-decoration: none;
+         }
+
+   .articles {
+       display: flex;
+       flex-wrap: wrap;
+       gap: 20px;
+   }
+
+   .article {
+       flex: 1 1 300px;
+       border: 1px solid #ddd;
+       padding: 10px;
+       background: #f9f9f9;
+       box-sizing: border-box;
+   }
+
+   .article img {
+       width: 100%;
+       height: auto;
+   }
+
+   .article a {
+       display: block;
+       margin-top: 10px;
+       color: #ab3c3c;
+       text-decoration: none;
+   }
+
+   .articles-heading {
+       text-align: center;
+       margin-bottom: 20px;
+       /* color: #ab3c3c; */
+   }
+   @media (max-width: 768px) {
+       .services {
+           flex-direction: column;
+           align-items: center;
+       }
+
+       .articles {
+           flex-direction: column;
+       }
+   }
